@@ -1,16 +1,19 @@
 # Tableau Retail & Sales Dashboard Project
 
-This project was completed as part of a **Data Technician Bootcamp** and focuses on analysing retail and sales data using **Tableau**. The goal of the project was to build interactive dashboards that help explore sales performance, customer trends, and regional insights through clear data visualisation.
+This project was completed as part of a **Data Technician Bootcamp** and focuses on analysing datasets using **Tableau** to create interactive dashboards and visualisations.
 
-The project demonstrates how Tableau can transform raw sales data into interactive visualisations that support **data-driven decision making**.
+The goal of the project was to explore different datasets and build dashboards that communicate insights clearly through **data storytelling and visual analytics**. The dashboards allow users to explore trends, patterns, and relationships within the data using interactive filters and visualisations.
 
 ---
 
 # Project Overview
 
-Using a retail sales dataset, this project explores patterns in **product performance, regional sales distribution, and customer behaviour**. The dashboard allows users to interact with the data through filters and dynamic visualisations to uncover meaningful insights.
+This repository contains two Tableau dashboards created using different datasets:
 
-Multiple visualisations are combined into a single dashboard to present a clear **data story about sales performance**.
+1. **Health Dataset Dashboard**
+2. **Spotify Audio Features Dashboard**
+
+Each dashboard demonstrates how Tableau can be used to transform raw datasets into clear and interactive visual insights.
 
 ---
 
@@ -22,45 +25,66 @@ This project demonstrates several key Tableau skills including:
 - Building multiple chart types including:
   - Bar charts
   - Line charts
+  - Scatter plots
   - Pie charts
-  - Map visualisations
-- Using **filters and slicers** to explore the data dynamically
-- Creating **calculated fields** to generate additional insights
-- Combining multiple visualisations into a **single dashboard**
+  - Treemaps
+- Using **filters and slicers** to allow users to explore data dynamically
+- Creating **calculated fields**
 - Designing dashboards that support **clear data storytelling**
+- Combining multiple visualisations into a single dashboard
 
 ---
 
-# Data Visualisation & Storytelling
+# Dashboard Visualisations
 
-The dashboard visualises retail sales data to highlight:
+## Health Trends Dashboard
 
-- Sales performance by product category
-- Regional sales patterns
-- Sales trends over time
-- Comparisons across different segments of the dataset
+![Health Dashboard](Heath-Dashboard.png)
 
-These visualisations help transform raw data into insights that can be easily understood by business users.
+This dashboard explores global **health indicators** such as life expectancy, BMI, cancer rates, and population distribution. The visualisations allow users to compare health trends across continents and countries.
+
+Key insights include:
+
+- Average **life expectancy by continent**
+- Relationship between **BMI and life expectancy**
+- Comparison of **BMI and cancer rates**
+- **Life expectancy trends over time**
+- **Population distribution by gender**
+
+Interactive filters allow users to explore health data by **country and continent** to identify patterns and trends.
+
+---
+
+## Spotify Audio Features & Popularity Dashboard
+
+![Spotify Dashboard](Spotify-Dashboard.png)
+
+This dashboard analyses **Spotify music data** to explore relationships between audio features and artist popularity.
+
+The dashboard includes visualisations showing:
+
+- Relationship between **energy and danceability**
+- **Top 10 artists by popularity**
+- Distribution of **popular music genres**
+- Patterns between **energy levels and track characteristics**
+
+These visualisations help highlight how audio features relate to music popularity and genre distribution.
 
 ---
 
 # Dataset
 
-The dataset contains retail and sales information including:
+The datasets used in this project include:
 
-- Product categories
-- Geographic regions
-- Sales metrics
-- Workforce and job change data
-
-The dataset was used to build visualisations that highlight trends and patterns across different regions and categories.
+- **Health dataset** containing global health indicators such as life expectancy, BMI, and cancer rates.
+- **Spotify dataset** containing audio features, popularity metrics, and genre information for music tracks.
 
 ---
 
 # Tools Used
 
-- **Tableau**
-- **Microsoft Excel** (dataset preparation and exploration)
+- **Tableau** – dashboard creation and data visualisation
+- **Microsoft Excel** – dataset preparation
 
 ---
 
@@ -71,7 +95,8 @@ My-Tableau-Repository
 │
 ├── Data_Technician_Workbook_Week_2_2026.docx
 ├── EMSI_JobChange_UK.xlsx
-├── dashboard-overview.png
+├── Heath-Dashboard.png
+├── Spotify-Dashboard.png
 └── README.md
 ```
 
@@ -82,7 +107,7 @@ My-Tableau-Repository
 Through this project I developed practical skills in:
 
 - Creating **interactive dashboards in Tableau**
-- Visualising **retail and sales data**
-- Using **filters and calculated fields** to explore datasets
-- Presenting data clearly through **visual storytelling**
-- Communicating insights using **data visualisation techniques**
+- Visualising complex datasets
+- Applying **filters and calculated fields** to explore data
+- Communicating insights through **data storytelling**
+- Designing dashboards that are clear and easy to interpret
