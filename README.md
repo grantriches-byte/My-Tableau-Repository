@@ -40,6 +40,7 @@ This project demonstrates several key Tableau skills including:
 ## Health Trends Dashboard
 
 ![Health Dashboard](Heath-Dashboard.png)
+[Link to My Report](https://public.tableau.com/views/HealthTrends_17707471254250/GlobalHealthDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 This dashboard explores global **health indicators** such as life expectancy, BMI, cancer rates, and population distribution. The visualisations allow users to compare health trends across continents and countries.
 
@@ -58,7 +59,7 @@ Interactive filters allow users to explore health data by **country and continen
 ## Spotify Audio Features & Popularity Dashboard
 
 ![Spotify Dashboard](Spotify-Dashboard.png)
-[Link to MY Report](https://public.tableau.com/views/Spotify_17709891742030/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Link to My Report](https://public.tableau.com/views/Spotify_17709891742030/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 This dashboard analyses **Spotify music data** to explore relationships between audio features and artist popularity.
 
